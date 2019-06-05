@@ -12,4 +12,4 @@ def multi_word_search(doc_list, keywords):
     for keyword in keywords:
         dict[keyword] = [doc_list.index(doc) for doc in doc_list if keyword.lower()in [token.rstrip('.,').lower() for token in doc.split()]]
     return dict
-© 2019 GitHub, Inc.
+
